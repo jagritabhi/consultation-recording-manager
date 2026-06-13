@@ -1,0 +1,40 @@
+/* Application container styling overrides */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Page header description */
+.page-description {
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+/* Status dot indicator */
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.pending {
+  background-color: #fa8c16;
+  box-shadow: 0 0 8px #fa8c16;
+}
+
+.status-dot.reviewed {
+  background-color: #1890ff;
+  box-shadow: 0 0 8px #1890ff;
+}
+
+.status-dot.completed {
+  background-color: #52c41a;
+  box-shadow: 0 0 8px #52c41a;
+}
