@@ -3,7 +3,7 @@ import { getToken, clearToken } from './auth';
 
 // Create custom axios instance
 const api = axios.create({
-  baseURL: '/api' // Proxied by Vite server in development
+  baseURL: 'https://consultation-recording-manager-a832.onrender.com/api'
 });
 
 // Request interceptor to automatically add Authorization JWT headers
